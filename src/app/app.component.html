@@ -1,0 +1,278 @@
+<div class="bg-rosa w-full h-36 shadow-2xl">
+  <div
+    class="h-full mx-auto flex items-center justify-between max-w-[1440px] px-8"
+  >
+    <img
+      src="../assets/images/logo.png"
+      alt=""
+      class="w-[170px] cursor-pointer"
+    />
+    <ul class="flex gap-6 items-center text-lg">
+      <li class="cursor-pointer hover:selecionado">Nossa história</li>
+      <li class="cursor-pointer hover:selecionado">Produtos</li>
+      <li class="cursor-pointer hover:selecionado">Contato</li>
+      <li
+        class="border border-white rounded-md py-0.5 px-10 cursor-pointer hover:bg-rose-500 transition-colors shadow-md"
+      >
+        Ver lojas
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="bg-azul-escuro w-full min-h-[calc(100vh-9rem)] flex items-center">
+  <div class="flex items-center mx-auto px-8 max-w-[1440px] text-left">
+    <div class="flex-1">
+      <p
+        class="text-[88px] desktop2:text-[95px] desktop3:text-[109px] leading-none"
+      >
+        BALAS
+        <span
+          class="inline-block relative before:w-full before:h-full before:bg-rosa before:rounded-md before:absolute"
+        >
+          <span class="relative z-100">7BELO</span> </span
+        >, DESDE 1960 A
+        <span
+          class="inline-block relative before:w-full before:h-full before:bg-rosa before:rounded-md before:absolute"
+        >
+          <span class="relative z-100">MELHOR BALA</span>
+        </span>
+        FABRICADA NO BRASIL.
+      </p>
+    </div>
+    <div class="flex-1 relative flex items-center justify-center">
+      <img
+        src="../assets/images/pacote-famb.png"
+        alt=""
+        class="w-[350px] desktop2:w-[370px] desktop3:w-[390px] relative right-10 bottom-10 z-10 -rotate-12"
+      />
+      <img
+        src="../assets/images/pacote-iog.png"
+        alt=""
+        class="w-[350px] desktop2:w-[370px] desktop3:w-[390px] absolute right-10 -bottom-10 rotate-12"
+      />
+    </div>
+  </div>
+</div>
+<div class="bg-rosa-claro w-full h-[200px]"></div>
+<div class="bg-azul-escuro py-8">
+  <div
+    class="flex items-center mx-auto px-8 max-w-[1440px] justify-between gap-14"
+  >
+    <div class="flex-[1.7]">
+      <h2 class="text-4xl mb-6">O que nossos consumidores dizem...</h2>
+      <div
+        class="bg-rosa shadow-2xl py-2 relative rounded-tr-xl mb-4 rounded-tl-sm rounded-br-xl rounded-bl-sm font-sans after:left-4 after:w-[6px] after:absolute after: after:h-[85%] after:rounded-sm after:m-auto after:top-0 after:bottom-0 right-0 after:bg-azul-escuro"
+      >
+        <div class="ml-10 py-2 pr-4">
+          <ul class="flex -mb-1">
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+          </ul>
+          <p class="font-bold">
+            {{ comments[0].name }} ({{ comments[0].email }})
+          </p>
+          <p>{{ comments[0].body }}</p>
+        </div>
+      </div>
+      <div
+        class="bg-rosa shadow-2xl relative rounded-tr-xl rounded-tl-sm mb-4 rounded-br-xl rounded-bl-sm font-sans after:left-4 after:w-[6px] after:absolute after: after:h-[85%] after:rounded-sm after:m-auto after:top-0 after:bottom-0 right-0 after:bg-azul-escuro"
+      >
+        <div class="ml-10 py-2 pr-4">
+          <ul class="flex -mb-1">
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+          </ul>
+          <p class="font-bold">
+            {{ comments[1].name }} ({{ comments[1].email }})
+          </p>
+          <p>{{ comments[1].body }}</p>
+        </div>
+      </div>
+      <div
+        class="bg-rosa shadow-2xl relative rounded-tr-xl rounded-tl-sm mb-4 rounded-br-xl rounded-bl-sm font-sans after:left-4 after:w-[6px] after:absolute after: after:h-[85%] after:rounded-sm after:m-auto after:top-0 after:bottom-0 right-0 after:bg-azul-escuro"
+      >
+        <div class="ml-10 py-2 pr-4">
+          <ul class="flex -mb-1">
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+          </ul>
+          <p class="font-bold">
+            {{ comments[2].name }} ({{ comments[2].email }})
+          </p>
+          <p>{{ comments[2].body }}</p>
+        </div>
+      </div>
+      <div
+        class="bg-rosa shadow-2xl relative rounded-tr-xl rounded-tl-sm mb-4 rounded-br-xl rounded-bl-sm font-sans after:left-4 after:w-[6px] after:absolute after: after:h-[85%] after:rounded-sm after:m-auto after:top-0 after:bottom-0 right-0 after:bg-azul-escuro"
+      >
+        <div class="ml-10 py-2 pr-4">
+          <ul class="flex -mb-1">
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+            <li>
+              <mat-icon class="text-amarelo text-xl">star</mat-icon>
+            </li>
+          </ul>
+          <p class="font-bold">
+            {{ comments[3].name }} ({{ comments[3].email }})
+          </p>
+          <p>{{ comments[3].body }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex-1 flex justify-center items-center">
+      <img src="../assets/images/bala-famb-2.png" alt="" class="w-[80%]" />
+    </div>
+  </div>
+</div>
+
+<div class="bg-rosa-claro w-full py-6">
+  <div
+    class="h-full mx-auto flex items-center justify-between max-w-[1440px] px-8"
+  >
+    <div class="flex-1">
+      <div class="text-azul-escuro mb-4">
+        <h2 class="text-4xl -mb-1">Seja Belo!</h2>
+        <h3 class="font-sans text-xl font-light">
+          Cadastre-se para receber novidades sobre nossos produtos.
+        </h3>
+      </div>
+      <div class="text-cinza-escuro font-sans text-base font-medium">
+        <label
+          >Nome <span class="text-red-600">*</span>
+          <br />
+          <input
+            type="text"
+            [(ngModel)]="name"
+            placeholder="Digite seu nome..."
+            class="text-sm w-[510px] max-w-full mb-2 rounded-md px-3 outline-none border-black border-opacity-20 border placeholder:font-light bg-quase-branco focus:border-opacity-40 py-1"
+        /></label>
+        <br />
+        <label
+          >E-mail <span class="text-red-600">*</span>
+          <br />
+          <input
+            type="text"
+            [(ngModel)]="email"
+            placeholder="Digite seu e-mail..."
+            class="text-sm w-[510px] max-w-full mb-2 rounded-md px-3 outline-none border-black border-opacity-20 border placeholder:font-light bg-quase-branco focus:border-opacity-40 py-1" /></label
+        ><label>
+          <br />
+          Telefone <span class="text-red-600">*</span>
+          <br />
+          <input
+            type="text"
+            placeholder="Digite seu telefone..."
+            class="text-sm w-[510px] max-w-full rounded-md px-3 mb-4 outline-none border-black border-opacity-20 border placeholder:font-light bg-quase-branco focus:border-opacity-40 py-1"
+        /></label>
+        <br />
+        <div class="flex items-center gap-3">
+          <button
+            class="bg-azul-escuro text-rosa-claro rounded-md px-5 py-1.5 font-bold relative flex items-center justify-center hover:opacity-95 transition-colors"
+            (click)="register()"
+          >
+            <ng-template
+              [ngIf]="!registering && registeringStatus !== 'SUCCEEDED'"
+            >
+              <span class="text-rosa-claro">Enviar</span>
+            </ng-template>
+            <ng-template
+              [ngIf]="!registering && registeringStatus === 'SUCCEEDED'"
+            >
+              <mat-icon class="absolute">check</mat-icon>
+              <span class="text-azul-escuro">Enviar</span>
+            </ng-template>
+
+            <ng-template [ngIf]="registering">
+              <div class="loader absolute"></div>
+              <span class="text-azul-escuro">Enviar</span>
+            </ng-template>
+          </button>
+          <ng-template
+            [ngIf]="!registering && registeringStatus === 'SUCCEEDED'"
+          >
+            Obrigado por se registrar.
+          </ng-template>
+          <ng-template [ngIf]="!registering && registeringStatus === 'FAILED'">
+            Algo deu errado. Por favor, tente novamente.
+          </ng-template>
+        </div>
+      </div>
+    </div>
+    <div class="flex-1 flex justify-end items-center">
+      <img
+        src="../assets/images/bala-iog.png"
+        alt=""
+        class="w-[200px] rotate-[65deg] relative bottom-14"
+      />
+      <img
+        src="../assets/images/bala-famb-1.png"
+        alt=""
+        class="w-[200px] relative top-14 right-6"
+      />
+    </div>
+  </div>
+</div>
+<div class="bg-azul-escuro h-24">
+  <div
+    class="h-full mx-auto flex items-center justify-between max-w-[1440px] px-8"
+  >
+    <p>© 2022 7Belo. Todos os direitos reservados.</p>
+    <div>
+      <img
+        src="../assets/images/logo.png"
+        alt=""
+        class="w-[90px] cursor-pointer"
+      />
+    </div>
+  </div>
+</div>

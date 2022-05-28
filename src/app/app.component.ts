@@ -25,7 +25,10 @@ export class AppComponent implements OnInit {
     if (testemunhos.length) this.comments = testemunhos;
   }
   async register() {
+    if (this.registeringStatus === 'SUCCEEDED') return;
+
     this.registering = true;
+    this.registeringStatus = 'NOT_TRIED';
 
     const status = await register(this.name, this.email);
 
